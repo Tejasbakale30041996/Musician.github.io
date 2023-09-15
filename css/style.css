@@ -1,0 +1,3109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #333132;
+
+    /* font-family: 'Josefin Sans', sans-serif; */
+
+
+}
+
+::selection {
+
+    background-color: #d70e1d;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+
+    width: 75%;
+}
+
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.header-logo img {
+
+    width: 120px;
+    margin-top: 20px;
+}
+
+.header-nav ul {
+    list-style: none;
+}
+
+.header-nav ul li {
+
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.header-nav ul li a {
+
+    text-decoration: none;
+    /* color:  #808285; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+    color: #dddddd;
+    transition: .2s linear;
+}
+
+.header-nav .home {
+
+    color: #fff;
+}
+
+.header-nav ul li a:hover:not(.home) {
+
+    color: #fff;
+}
+
+.header-content h1 {
+
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+.header-content h2 {
+
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    position: relative;
+
+}
+
+.header-content h2::after {
+
+    position: absolute;
+    content: "";
+    left: 20px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    border-bottom: 2px solid #dddddd;
+    width: 800px;
+}
+
+.header-content p {
+
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 789px;
+    padding-top: 60px;
+
+}
+
+.live-background {
+
+    background: #d70e1d;
+    padding: 45px 0;
+}
+
+.live-background .live-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.live-background .live-main h1 {
+
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.live-background .live-main .btn {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 24px;
+    background: transparent;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.live-background .live-main .btn:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.biography {
+
+    background: url(../../img/bg-img-04-free-img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top right;
+}
+
+.biography .biography-content h1 {
+
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.biography .biography-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    border-bottom: 2px solid #dddddd;
+    width: 650px;
+}
+
+.biography .aute p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 458px;
+    color: #dddddd;
+    padding-top: 40px;
+
+}
+
+.biography .aute h2 {
+
+    color: #d70e1d;
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.biography .aute h4 {
+
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.biography .aute h3 {
+
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 40px;
+    max-width: 242px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.tour h1 {
+
+
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.date h4 {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #dddddd;
+    padding-top: 30px;
+
+    font-size: 18px;
+    position: relative;
+
+
+}
+
+.date h4::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 2px solid #fff;
+
+}
+
+
+
+.date h1 {
+
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 25px;
+
+}
+
+.date .btn {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 24px;
+    text-align: center;
+    background: #d70e1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+    margin-bottom: 40px;
+}
+
+.date .btn:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.latest h1 {
+
+
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.latest h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #fff;
+}
+
+.the img {
+
+    margin-top: 50px;
+    width: 470px;
+    height: 306px;
+}
+
+.the h4 {
+
+    color: #d70e1d;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.the h2 {
+
+    color: #ffff;
+    font-size: 29px;
+    font-weight: 7000;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    position: relative;
+
+
+}
+
+.the h2::after {
+
+    position: absolute;
+    content: "";
+    left: 60px;
+    right: 0;
+    top: 0;
+    bottom: 45px;
+    border-bottom: 4px solid #fff;
+    width: 10px;
+
+}
+
+.the p {
+
+    font-size: 18px;
+    font-weight: 300;
+    color: #dddddd;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.the .icon {
+
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+
+.the .icon span {
+
+    color: #fff;
+    font-size: 15px;
+    background: #d70e1d;
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.the .icon .icon-paper-plane-empty:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.the .icon .icon-apple:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.the .icon .icon-soundcloud:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.the .icon .icon-spotify:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.middle-img img {
+
+    width: 211px;
+    height: 325px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.contact-background {
+
+    background: url(../../img/bg-02-free-img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+
+.contact-background::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.contact-background .contact-content h1 {
+
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.contact-background .contact-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #dddddd;
+    width: 800px;
+}
+
+.contact-background .contact-content p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dddddd;
+    line-height: 1.7;
+    max-width: 562px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.contact-background .form label {
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #dddddd;
+
+}
+
+
+.contact-background .form input[ type=text] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+
+}
+
+.contact-background .form input[ type=text]:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-background .form input[ type=email] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 502px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+
+}
+
+.contact-background .form input[ type=email]:focus {
+
+
+    border: 1px dotted #000;
+}
+
+.contact-background .form textarea {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 502px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+    height: 100px;
+}
+
+.contact-background .form textarea:focus {
+
+    border: 1px dotted #000;
+}
+
+.contact-background .form input[ type=submit] {
+
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background: #d70e1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.contact-background .form input[ type=submit]:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.contact-background .photo img {
+
+    width: 520px;
+    height: 520px;
+}
+
+.subscribe {
+
+    background: #d70e1d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-top: 50px; */
+}
+
+.subscribe .subscribe-content h2 {
+
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+
+
+}
+
+.subscribe .subscribe-form input[ type=email] {
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 502px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+}
+
+
+.subscribe .subscribe-form input[ type=email]:focus {
+
+    border: 1px dotted #000;
+}
+
+.subscribe .subscribe-form input[ type=submit] {
+
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.subscribe .subscribe-form input[ type=submit]:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.footer {
+
+    text-align: center;
+}
+
+.footer img {
+
+    margin-top: 100px;
+
+}
+
+.footer p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    padding-top: 30px;
+    max-width: 618px;
+    margin: 0 auto;
+    color: #dddddd;
+    padding-bottom: 50px;
+}
+
+.footer span {
+
+    font-size: 20px;
+    padding-right: 20px;
+    color: #d70e1d;
+    transition: .2s linear;
+    cursor: pointer;
+}
+
+.footer .icon-facebook-circled:hover {
+
+    color: #fff;
+}
+
+.footer .icon-google:hover {
+
+    color: #fff;
+}
+
+.footer .icon-youtube-play:hover {
+
+    color: #fff;
+}
+
+.footer .icon-twitter:hover {
+
+    color: #fff;
+}
+
+.footer .icon-instagram:hover {
+
+    color: #fff;
+}
+
+.footer-bottom-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+}
+
+.footer-bottom-main .footer-bottom-left p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dddddd;
+}
+
+.footer-bottom-main .footer-bottom-right p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dddddd;
+}
+
+
+/* ============================================================= Style of Biography ============================================= */
+/* ============================================================= Style of Biography ============================================= */
+
+
+.biography-header {
+    background: url(../../img/bg-img-01-free-img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 200px;
+}
+
+.header-content h1 {
+
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+
+.header-content h1::after {
+
+    position: absolute;
+    content: "";
+    left: 20px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    border-bottom: 2px solid #dddddd;
+    width: 800px;
+}
+
+
+.biography-excepteur {
+
+    background: url(../../img/bg-03-free-img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.biography-excepteur::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #d70e1d;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.biography-excepteur .biography-excepteur-content h2 {
+
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+    max-width: 665px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+.biography-excepteur .biography-excepteur-content h2::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #dddddd;
+    width: 665px;
+}
+
+.biography-excepteur .biography-duis h3 {
+
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    line-height: 1.5;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    max-width: 718px;
+}
+
+.biography-excepteur .biography-duis p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dddddd;
+    max-width: 767px;
+    padding-bottom: 50px;
+    line-height: 1.7;
+}
+
+.biography-excepteur .biography-duis p::first-letter {
+
+    font-size: 50px;
+}
+
+
+.biography-excepteur .biography-voluptate h3 {
+
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    max-width: 300px;
+}
+
+.biography-excepteur .biography-voluptate p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dddddd;
+    line-height: 1.7;
+    max-width: 403px;
+    padding-bottom: 70px;
+}
+
+.biography-excepteur .biography-voluptate p::first-letter {
+
+    font-size: 50px;
+}
+
+.biography-when h2 {
+
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    max-width: 736px;
+    font-style: italic;
+    position: relative;
+}
+
+.biography-when h2::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-bottom: 2px solid #dddddd;
+    width: 736px;
+}
+
+.biography-when h4 {
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: right;
+    padding-right: 60px;
+}
+
+
+
+/* ======================================================== Style of Concerts ================================================= */
+/* ======================================================== Style of Concerts ================================================= */
+
+.concert-date h4 {
+
+    color: #dddddd;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.concert-date h4::after {
+
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 2px solid #dddddd;
+
+}
+
+.concert-date h2 {
+
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
+
+.concert-main {
+
+    display: flex;
+    align-items: center;
+}
+
+.concert-main span {
+
+    font-size: 18px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.concert-main h4 {
+
+    color: #dddddd;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.concert-button .btn {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 24px;
+    text-align: center;
+    background: #d70e1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.concert-button .btn:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+
+
+/* ========================================= Style of Albums ==================================================================== */
+/* ========================================= Style of Albums ==================================================================== */
+
+
+.alubm img {
+
+    margin-top: 0;
+}
+
+.alubm-the img {
+
+    margin-top: 100px;
+}
+
+.album-subscribe {
+
+    margin-top: 100px;
+}
+
+
+/* =================================================== Style of Gallary ========================================================== */
+/* =================================================== Style of Gallary ========================================================== */
+
+
+.gallary-img img {
+
+    width: 270px;
+    height: 338px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.gallary-middle img {
+
+    margin-top: 20px;
+}
+
+
+/* ==================================================== Style of Contact =========================================================== */
+/* ==================================================== Style of Contact =========================================================== */
+
+
+.contact-get h2 {
+
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+
+}
+
+.contact-get p {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #dddddd;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+.contact-get h4 {
+
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 5px;
+
+}
+
+.contact-get h3 {
+
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+
+.form label {
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #dddddd;
+
+}
+
+
+.form input[ type=text] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+
+}
+
+.form input[ type=text]:focus {
+
+    border: 1px dotted #000;
+}
+
+.form input[ type=email] {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 502px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+
+}
+
+.form input[ type=email]:focus {
+
+
+    border: 1px dotted #000;
+}
+
+.form textarea {
+
+    color: #666;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    background: #fafafa;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    width: 502px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    transition: .2s linear;
+    height: 100px;
+}
+
+.form textarea:focus {
+
+    border: 1px dotted #000;
+}
+
+.form input[ type=submit] {
+
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background: #d70e1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear;
+
+}
+
+.form input[ type=submit]:hover {
+
+    background: #fff;
+    color: #333132;
+}
+
+.contact-form {
+
+    padding-top: 100px;
+}
+
+
+
+/* =========================================== Media querie for Home =========================================================== */
+/* =========================================== Media querie for Home =========================================================== */
+
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0m auto;
+    }
+
+    .header-logo img {
+
+        width: 100px;
+        margin-left: 10px;
+    }
+
+    .header-nav ul li a {
+
+        font-size: 15px;
+    }
+
+    .header-content h1 {
+
+        font-size: 110px;
+        padding-bottom: 40px;
+    }
+
+    .header-content h1::after {
+
+        width: 578px;
+    }
+
+    .header-content h2 {
+
+
+        font-size: 28px;
+        padding-bottom: 25px;
+
+    }
+
+    .header-content h2::after {
+
+        width: 578px;
+    }
+
+    .header-content p {
+
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .live-background {
+
+        padding: 30px 0;
+    }
+
+    .live-background .live-main h1 {
+
+        font-size: 25px;
+    }
+
+    .live-background .live-main .btn {
+
+        font-size: 14px;
+
+    }
+
+    .biography .biography-content h1 {
+
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .biography .biography-content h1::after {
+
+
+        width: 340px;
+        left: 25px;
+    }
+
+    .biography .aute p {
+
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+
+    .biography .aute h3 {
+
+        font-size: 24px;
+    }
+
+    .biography .aute h2 {
+
+        font-size: 25px;
+    }
+
+    .biography .aute h4 {
+
+        font-size: 14px;
+    }
+
+    .tour h1 {
+
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .date h4 {
+
+        font-size: 15px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .date h1 {
+
+        font-size: 28px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .date .btn {
+
+        font-size: 15px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .latest h1 {
+
+        font-size: 50px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .latest h1::after {
+
+        width: 600px;
+    }
+
+    .the img {
+        margin-top: 40px;
+        width: 380px;
+        height: 240px;
+        margin-left: 10px;
+    }
+
+
+    .the h2 {
+
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .the p {
+
+        font-size: 16px;
+    }
+
+    .the .icon {
+
+        padding-top: 20px;
+    }
+
+    .the .icon span {
+
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .middle-img img {
+
+        margin-top: 40px;
+        width: 171px;
+        height: 222px;
+    }
+
+    .contact-background .contact-content h1 {
+
+        font-size: 50px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .contact-background .contact-content h1::after {
+
+        width: 500px;
+    }
+
+    .contact-background .contact-content p {
+
+        font-size: 16px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        max-width: 526px;
+    }
+
+
+    .contact-background .form label {
+
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .contact-background .form input[ type=text] {
+
+        font-size: 15px;
+        margin-left: 10px;
+        width: 235px;
+        margin-bottom: 20px;
+    }
+
+    .contact-background .form input[ type=email] {
+
+        font-size: 15px;
+        margin-left: 10px;
+        width: 485px;
+        margin-bottom: 20px;
+
+    }
+
+    .contact-background .form textarea {
+
+        font-size: 15px;
+        margin-left: 10px;
+        width: 485px;
+        margin-bottom: 20px;
+        height: 90px;
+    }
+
+    .contact-background .form input[ type=submit] {
+
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .contact-background .photo img {
+        width: 496px;
+        height: 471px;
+    }
+
+    .subscribe {
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    .subscribe .subscribe-content h2 {
+
+        font-size: 28px;
+        padding-left: 10px;
+    }
+
+    .subscribe .subscribe-form input[ type=email] {
+
+        font-size: 16px;
+        width: 430px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe .subscribe-form input[ type=submit] {
+
+        font-size: 16px;
+    }
+
+    .footer img {
+
+        width: 120px;
+        margin-top: 40px;
+    }
+
+    .footer p {
+
+        font-size: 16px;
+        max-width: 600px;
+        padding-bottom: 30px;
+    }
+
+    .footer span {
+
+        font-size: 18px;
+        padding-right: 15px;
+    }
+
+    .footer-bottom-main {
+
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .footer-bottom-main .footer-bottom-left p {
+
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .footer-bottom-main .footer-bottom-right p {
+
+        font-size: 16px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .header-logo img {
+
+        width: 90px;
+    }
+
+    .header-nav ul li {
+
+        padding-right: 13px;
+    }
+
+
+    .header-nav ul li a {
+        font-size: 14px;
+    }
+
+
+    .header-content h1 {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    .header-content h1::after {
+
+        width: 303px;
+    }
+
+    .header-content h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .header-content h2::after {
+
+        width: 303px;
+    }
+
+
+    .header-content p {
+
+        font-size: 15px;
+        padding-top: 25px;
+        line-height: 1.5;
+        padding-left: 10px;
+        max-width: 748px;
+    }
+
+    .live-background {
+
+        padding: 20px 0;
+    }
+
+    .live-background .live-main h1 {
+
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .live-background .live-main .btn {
+
+        padding: 10px 20px;
+        margin-right: 20px;
+    }
+
+    .biography .biography-content h1 {
+
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .biography .biography-content h1::after {
+
+        width: 160px;
+    }
+
+    .biography .aute p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 20px;
+        max-width: 410px;
+    }
+
+    .biography .aute h2 {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .biography .aute h4 {
+
+        padding-left: 10px;
+    }
+
+    .biography .aute h3 {
+        font-size: 20px;
+        max-width: 203px;
+    }
+
+    .tour h1 {
+
+
+        font-size: 30px;
+        padding-left: 10px;
+
+    }
+
+    .date h4 {
+
+        font-size: 14px;
+
+    }
+
+    .date h1 {
+
+        font-size: 22px;
+        padding-bottom: 15px;
+
+    }
+
+    .date .btn {
+
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+    }
+
+    .latest h1 {
+
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+
+    .latest h1::after {
+        width: 330px;
+        left: 10px;
+    }
+
+    .the img {
+
+        margin-top: 30px;
+        width: 281px;
+        height: 184px;
+    }
+
+    .the h4 {
+
+        padding-top: 15px;
+    }
+
+    .the h2 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .the h2::after {
+
+        bottom: 25px;
+    }
+
+    .the p {
+
+        font-size: 15px;
+    }
+
+    .the .icon span {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .middle-img img {
+        margin-top: 35px;
+        width: 128px;
+        height: 155px;
+    }
+
+    .contact-background {
+
+        background-position: center;
+    }
+
+    .contact-background .contact-content h1 {
+        font-size: 30px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    .contact-background .contact-content h1::after {
+
+        width: 340px;
+        left: 10px;
+    }
+
+    .contact-background .contact-content p {
+
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 20px;
+        max-width: 450px;
+        padding-bottom: 30px;
+    }
+
+    .contact-background .form label {
+
+        font-size: 15px;
+
+    }
+
+
+    .contact-background .form input[ type=text] {
+
+        font-size: 14px;
+        padding: 8px;
+        width: 172px;
+
+    }
+
+    .contact-background .form input[ type=email] {
+
+        font-size: 14px;
+        padding: 8px;
+        width: 359px;
+    }
+
+    .contact-background .form textarea {
+
+        font-size: 14px;
+        padding: 8px;
+        width: 359px;
+        height: 80px;
+    }
+
+    .contact-background .form input[ type=submit] {
+
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .contact-background .photo img {
+        width: 371px;
+        height: 348px;
+    }
+
+    .subscribe {
+
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .subscribe .subscribe-content h2 {
+
+        font-size: 22px;
+
+    }
+
+    .subscribe .subscribe-form input[ type=email] {
+
+        font-size: 15px;
+        padding: 8px;
+        width: 340px;
+    }
+
+    .subscribe .subscribe-form input[ type=submit] {
+
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .footer img {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .footer p {
+
+        font-size: 15px;
+        max-width: 485px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-bottom-main {
+
+        padding-top: 40px;
+
+    }
+
+    .footer-bottom-main .footer-bottom-left p {
+
+        font-size: 15px;
+
+    }
+
+    .footer-bottom-main .footer-bottom-right p {
+
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .header-logo {
+
+        text-align: center;
+    }
+
+    .header-nav ul li a {
+
+        font-size: 15px;
+
+    }
+
+    .header-nav ul li {
+
+        display: block;
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .header-content h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .header-content h1::after {
+        width: 239px;
+    }
+
+    .header-content h2 {
+
+        font-size: 20px;
+
+    }
+
+    .header-content h2::after {
+
+        width: 239px;
+    }
+
+    .header-content p {
+
+        padding-top: 20px;
+        max-width: 300px;
+    }
+
+    .live-background .live-main {
+
+        display: block;
+    }
+
+    .live-background .live-main .btn {
+
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+    .biography .biography-content h1 {
+
+        font-size: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .biography .biography-content h1::after {
+        width: 133px;
+    }
+
+    .biography .aute p {
+
+        max-width: 300px;
+    }
+
+    .biography .aute h3 {
+
+        max-width: 300px;
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .tour h1 {
+
+        font-size: 22px;
+        padding-bottom: 20px;
+
+    }
+
+    .latest h1 {
+
+        font-size: 22px;
+        padding-top: 10px;
+
+    }
+
+    .latest h1::after {
+
+        width: 170px;
+    }
+
+    .the img {
+
+        width: 300px;
+        height: 215px;
+    }
+
+    .the h4 {
+        padding-left: 10px;
+
+    }
+
+    .the h2 {
+        padding-left: 25px;
+
+    }
+
+    .the h2::after {
+
+        left: 10px;
+    }
+
+    .the p {
+
+        padding-left: 10px;
+    }
+
+    .the .icon {
+
+        padding-left: 10px;
+    }
+
+
+    .middle-img img {
+
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .contact-background .contact-content h1 {
+
+        font-size: 22px;
+    }
+
+    .contact-background .contact-content h1::after {
+
+        width: 226px;
+    }
+
+    .contact-background .contact-content p {
+
+        max-width: 300px;
+    }
+
+
+    .contact-background .form input[ type=text] {
+
+        width: 144px;
+    }
+
+    .contact-background .form input[ type=email] {
+
+        width: 300px;
+
+    }
+
+    .contact-background .form textarea {
+
+        width: 300px;
+
+    }
+
+    .contact-background .form input[ type=submit] {
+
+        margin-bottom: 30px;
+    }
+
+    .contact-background .photo img {
+
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .subscribe .subscribe-form input[ type=email] {
+
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .subscribe .subscribe-form input[ type=submit] {
+
+        margin-left: 10px;
+    }
+
+    .footer p {
+        max-width: 300px;
+    }
+
+
+    .footer-bottom-main {
+
+        display: block;
+
+    }
+
+    .footer-bottom-main .footer-bottom-right p {
+
+        padding-left: 10px;
+        padding-top: 20px;
+
+    }
+}
+
+
+/* ================================================== Media querie for Biography =================================================== */
+/* ================================================== Media querie for Biography =================================================== */
+
+@media screen and (max-width:1024px) {
+
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+
+    .biography-header {
+
+        padding-bottom: 100px;
+
+    }
+
+    .header-content h1 {
+
+        font-size: 110px;
+        padding-bottom: 40px;
+    }
+
+    .header-content h1::after {
+
+        width: 578px;
+    }
+
+    .biography-excepteur .biography-excepteur-content h2 {
+
+        font-size: 27px;
+        padding-top: 50px;
+        padding-left: 10px;
+        max-width: 687px;
+        padding-bottom: 30px;
+    }
+
+    .biography-excepteur .biography-excepteur-content h2::after {
+
+        left: 10px;
+    }
+
+    .biography-excepteur .biography-duis h3 {
+
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .biography-excepteur .biography-duis p {
+
+        font-size: 16px;
+        padding-bottom: 40px;
+
+    }
+
+    .biography-excepteur .biography-voluptate h3 {
+
+        font-size: 24px;
+
+    }
+
+    .biography-excepteur .biography-voluptate p {
+
+
+        font-size: 16px;
+        padding-bottom: 50px;
+
+    }
+
+
+    .biography-when h2 {
+
+        font-size: 28px;
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+
+    }
+
+    .biography-when h2::after {
+
+        left: 10px;
+        width: 670px;
+    }
+
+    .biography-when h2 {
+
+        padding-bottom: 40px;
+
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+
+
+    .biography-header {
+        padding-bottom: 60px;
+    }
+
+
+    .header-content h1 {
+        font-size: 90px;
+        padding-bottom: 25px;
+    }
+
+    .header-content h1::after {
+        width: 441px;
+    }
+
+
+    .biography-excepteur .biography-excepteur-content h2 {
+
+        font-size: 22px;
+        padding-top: 40px;
+
+        max-width: 583px;
+        padding-bottom: 20px;
+    }
+
+    .biography-excepteur .biography-excepteur-content h2::after {
+
+        width: 561px;
+    }
+
+    .biography-excepteur .biography-duis h3 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .biography-excepteur .biography-duis h3 {
+        font-size: 22px;
+
+        padding-bottom: 10px;
+        padding-left: 10px;
+        max-width: 631px;
+    }
+
+    .biography-excepteur .biography-duis p {
+
+        padding-left: 10px;
+        max-width: 981px;
+        padding-bottom: 30px;
+
+    }
+
+    .biography-excepteur .biography-voluptate h3 {
+        font-size: 22px;
+        padding-left: 10px;
+        max-width: 278px;
+    }
+
+    .biography-excepteur .biography-voluptate p {
+
+        padding-bottom: 40px;
+        max-width: 375px;
+    }
+
+    .biography-when h2 {
+
+        font-size: 21px;
+        padding-bottom: 20px;
+        max-width: 511px;
+
+    }
+
+    .biography-when h2::after {
+
+        width: 504px;
+    }
+
+    .biography-when h4 {
+
+        padding-bottom: 40px;
+        padding-right: 0;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .biography-header {
+
+        padding-bottom: 40px;
+        background-position: center;
+    }
+
+    .header-content h1 {
+
+        font-size: 35px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+
+    }
+
+    .header-content h1::after {
+
+        left: 10px;
+        width: 173px;
+    }
+
+    .biography-excepteur {
+
+        background-position: center;
+    }
+
+    .biography-excepteur .biography-excepteur-content h2 {
+
+        font-size: 17px;
+        padding-top: 30px;
+        max-width: 300px;
+    }
+
+
+    .biography-excepteur .biography-excepteur-content h2::after {
+
+        width: 300px;
+
+
+    }
+
+    .biography-excepteur .biography-duis h3 {
+
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .biography-excepteur .biography-duis p {
+
+        max-width: 300px;
+    }
+
+
+    .biography-excepteur .biography-voluptate h3 {
+
+        font-size: 19px;
+        max-width: 300px;
+    }
+
+    .biography-excepteur .biography-voluptate p {
+
+        padding-left: 10px;
+        max-width: 300px;
+
+    }
+
+    .biography-when h2 {
+
+        font-size: 16px;
+        padding-top: 30px;
+        max-width: 300px;
+    }
+
+    .biography-when h2::after {
+
+        width: 300px;
+    }
+
+    .biography-when h4 {
+
+        font-size: 16px;
+        padding-bottom: 30px;
+        padding-right: 10px;
+    }
+}
+
+
+/* ======================================================  Media querie for Concert ============================================= */
+/* ======================================================  Media querie for Concert ============================================= */
+
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .concert-date h4 {
+
+        font-size: 14px;
+        padding-left: 10px;
+
+    }
+
+    .concert-date h2 {
+
+        font-size: 28px;
+        padding-left: 10px;
+
+    }
+
+    .concert-main {
+
+        padding-left: 10px;
+    }
+
+    .concert-button .btn {
+
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .concert-date h4 {
+
+        padding-top: 30px;
+
+    }
+
+    .concert-date h2 {
+
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .concert-main span {
+
+        font-size: 16px;
+    }
+
+    .concert-main h4 {
+
+        font-size: 16px;
+    }
+
+    .concert-button .btn {
+
+        font-size: 15px;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"] {
+
+        width: 100%;
+    }
+
+    .concert-date h4::after {
+
+        left: 10px;
+        width: 300px;
+    }
+}
+
+
+
+/* ====================================================== Media querie for Alubms ================================================ */
+/* ====================================================== Media querie for Alubms ================================================ */
+
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+
+    }
+
+    .album-subscribe {
+
+        margin-top: 40px;
+
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+
+    }
+
+    .album-subscribe {
+        margin-top: 30px;
+    }
+}
+
+
+
+/* ======================================= Media querie for Gallary =========================================================== */
+/* ======================================= Media querie for Gallary =========================================================== */
+
+@media screen and (max-width:1024px) {
+
+    .container {
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .gallary-img img {
+
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 233px;
+        height: 250px;
+    }
+
+    .gallary-img img {
+
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .gallary-img img {
+
+        width: 171px;
+        height: 185px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+
+    .container {
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"]{
+
+        width: 100%;
+    }
+
+    .gallary-img img{
+
+        width: 300px;
+        height: 310px;
+    }
+
+}
+
+
+/* ======================================================== Media querie for Contact ============================================= */
+/* ======================================================== Media querie for Contact ============================================= */
+
+@media screen and ( max-width:1024px){
+
+    .container{
+
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .contact-get h2{
+
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        font-size: 25px;
+
+    }
+
+    .contact-get p{
+
+        font-size: 16px;
+        padding-left: 10px;
+        max-width: 457px;
+    }
+
+    .contact-get h4{
+
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+
+    .contact-get h3{
+
+        font-size: 16px;
+        padding-left: 10px;
+
+    }
+
+
+    .contact-form{
+
+        padding-top: 40px;
+    }
+
+    .form label{
+
+        font-size: 16px;
+
+    }
+
+    .form input[ type=text]{
+
+        font-size: 16px;
+        width: 240px;
+    }
+
+    .form input[ type=email]{
+
+        font-size: 16px;
+        width: 488px;
+    }
+
+    .form textarea{
+        font-size: 16px;
+        width: 488px;
+        height: 90px;
+    }
+
+    .form input[ type=submit]{
+
+        font-size: 16px;
+    }
+}
+
+@media screen and ( max-width:991px){
+
+    .container {
+
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .contact-get h2 {
+        padding-top: 30px;
+      
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .contact-get p{
+
+        font-size: 15px;
+        max-width: 333px;
+    }
+
+    .contact-get h4{
+
+        padding-top: 25px;
+    }
+
+    .contact-form{
+
+        padding-top: 30px;
+    }
+
+    .form input[ type=text]{
+
+        font-size: 15px;
+        padding: 8px;
+        width: 184px;
+    }
+
+    .form input[ type=email]{
+
+        font-size: 15px;
+        padding: 8px;
+        width: 372px;
+    }
+
+    .form textarea{
+
+        font-size: 15px;
+        padding: 8px;
+        width: 372px;
+        height: 80px;
+
+    }
+
+    .form input[ type=submit]{
+
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and ( max-width:767px){
+
+    .container{
+
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [ class *="col-"]{
+
+        width: 100%;
+    }
+
+    .contact-get p{
+
+        max-width: 300px;
+    }
+
+    .form label{
+
+        padding-left: 10px;
+    }
+
+    .form input[ type=text]{
+
+        margin-left: 10px;
+        width: 144px;
+    }
+
+    .form input[ type=email]{
+
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .form textarea{
+
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .form input[ type=submit]{
+
+        margin-left: 10px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?16551101');
+    src: url('../font/fontello.eot?16551101#iefix') format('embedded-opentype'),
+        url('../font/fontello.svg?16551101#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('data:application/octet-stream;base64,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') format('woff'),
+        url('data:application/octet-stream;base64,AAEAAAAPAIAAAwBwR1NVQiCLJXoAAAD8AAAAVE9TLzI+I1UVAAABUAAAAGBjbWFwMP57nAAAAbAAAAIuY3Z0IAAAAAAAABQoAAAADmZwZ21iLvl6AAAUOAAADgxnYXNwAAAAEAAAFCAAAAAIZ2x5ZpJ6kxkAAAPgAAAMBmhlYWQmZfK8AAAP6AAAADZoaGVhCFkEeAAAECAAAAAkaG10eCe+//wAABBEAAAALGxvY2EOGhF/AAAQcAAAABhtYXhwAWkPFwAAEIgAAAAgbmFtZc2dGhsAABCoAAACzXBvc3SeyS9EAAATeAAAAKZwcmVwfrY7tgAAIkQAAACcAAEAAAAKADAAPgACREZMVAAObGF0bgAaAAQAAAAAAAAAAQAAAAQAAAAAAAAAAQAAAAFsaWdhAAgAAAABAAAAAQAEAAQAAAABAAgAAQAGAAAAAQAAAAQDnQGQAAUAAAJ6ArwAAACMAnoCvAAAAeAAMQECAAACAAUDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBmRWQAwOgA8w0DUv9qAFoDrACWAAAAAQAAAAAAAAAAAAAAAAACAAAABQAAAAMAAAAsAAAABAAAAaYAAQAAAAAAoAADAAEAAAAsAAMACgAAAaYABAB0AAAAFAAQAAMABOgB8JnxavFt8XnxoPG+8dnzDf//AADoAPCZ8WrxbfF58aDxvvHZ8w3//wAAAAAAAAAAAAAAAAAAAAAAAAABABQAFgAWABYAFgAWABYAFgAWAAAAAQACAAMABAAFAAYABwAIAAkACgAAAQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAiAAAAAAAAAAKAADoAAAA6AAAAAABAADoAQAA6AEAAAACAADwmQAA8JkAAAADAADxagAA8WoAAAAEAADxbQAA8W0AAAAFAADxeQAA8XkAAAAGAADxoAAA8aAAAAAHAADxvgAA8b4AAAAIAADx2QAA8dkAAAAJAADzDQAA8w0AAAAKAAAABQAA/2oD6ANSABIAKAA8AE0AVgBtQGo2KQIGBwoBDAFTEAINDANMAAAFAIUABQMFhQQBAgMJAwIJgAgBBgcLBwYLgAADAAkHAwlpAAcACwoHC2kACgABDAoBaQAMDQ0MWQAMDA1hAA0MDVFWVFJQS0lCQDo5ExMVJRQTFygTDgYfKxE0PgEgHgEVFAYHLgEjIgYHLgETFBYXMjc2IBczMhcyNic0JyYjIgcGHwEWMzI3NiAXFjMyPwE0JyYgBwYXFjc2MzIXFjc2JicmIyIHBhM+ATMyFwYjIobmARDmhkxFPKpia7g7U16kGBIGA5ABNJAEAwIRGgEXn6eqnxQuBggPAwZ/ARWABAMPCAUKiv7NjAowChVsdHBrGAsFCglqhoB0E0Ulbj1yT2h0XgFeiOaGhuaIZbZFSVJiVkfGAQARGAEBOjoBGhAZDD9ADawQDQI3OAINEQ0IPj4KmxkJMzANGQ0UBTU3Cv6qMDhWNAACAAD/zgH0Au4ADgAXADBALQYBAUkEAQECAYYDAQACAgBZAwEAAAJhAAIAAlEQDwEAFBMPFxAXAA4BDgUGFisTMhYUAg8BLgQ1NDYTMjY0JiIGFBb6aJJ8QD4KIlZCNpJoOFBQcE5OAu6S0v7uVlQMLoSApkJokv58UHBOTnBQAAEAAP/3A4gCwwAvAE1ASi4sKiACBQUGGQEEBRYSAgMECwEBAgRMAAYFBoUABQQFhQAEAwSFAAMCA4UAAgEChQABAAABWQABAQBhAAABAFEkFhYjESIoBwYdKwEGBxUUDgMnIicWMzI3LgEnFjMyNy4BPQEWFy4BNDceARcmNTQ2NzIXNjcGBzYDiCU1KlZ4qGGXfRMYfmI7XBITDxgYP1ImLCUsGUTAcAVqSk81PTYVOzQCbjYnF0mQhmRAAlECTQFGNgMGDWJCAhUCGU5gKlNkBRUUS2gBOQwgQCQGAAAAAv////4D6QK+AAIARQAgQB0CAQADAQABTAIBAAEAhQABAXYHAyckA0UHQwMGFistAjcyFh8CHgUXHgIXHgEdARYHDgEPAQ4DDwEGIycmLwEuAicuAicuAT0BJjc+AT8BPgI/ATYWNhU2AY0BDv7yZ16uKSkJCQgSDhIQCAQKFgQEBgELBBQICAcSEBAII4zSyVYZMBQUJgwEChYEBAYBCwQUCAgIEBIHEAkIEozdi43JBgICAQECAggGEAcDDjQeJFAYYlFRHjIKCQgOBggBBQsEAgIFAwQUDQMONB4kUBhiUVEfMAsJCQwKAgUDAgYCCgAAAAUAAP+xA1kDCwAIABEAGgBUAG0AY0BgEgEDBQFMAAoCBwcKcgANCw4CBgUNBmkABQAEAAUEaQADAAABAwBpAAEAAgoBAmkJCAIHDAwHWQkIAgcHDGAADAcMUCAbamVeWVJRPTw6OTg3NjUbVCBTExQTFBMSDwYcKwE0JiIOARYyNjcUBi4BPgIWNxQGIi4BNjIWJSIrASIOAQcOAQcOAhYGFgYWFB8BHgEXHgEyFjYWNhY+ATc+ATc+AiY2JjYmNC8BLgEnLgEiJgYBFAcOAQcGIicuAScmEDc+ATc2IBceARcWAjtSeFICVnRWS4C2ggJ+unw/HiwcAiAoIv7mBCc7FEQuERwqDAYIBAICAgICBgoMKhwQMEIqTApKLEA0DRwsCgYIBAICAgICBgoLKh0QLkYmUAGqAwWAczL+MnSABQMDBYB0MQEAMXR+BgMBXjtUVHZUVDtbggJ+un4CgooVHh4qHh5mBAYICyocEDBEJlAGUCZEGCgcKgsGCgQEBAQECAIKCyocEDBEJlAGUCZEGCgcKgsGCgQE/qKAMXSABQMDBn51MQEAMXSABQMDBn51MQACAAD/sQMJA1IAIAAwAHNACigBBAMaAQEEAkxLsApQWEAZAAUDBYUAAwQDhQAEAQSFAAEAAYUCAQAAdhtLsAtQWEAVBQEDBAOFAAQBBIUAAQABhQIBAAB2G0AZAAUDBYUAAwQDhQAEAQSFAAEAAYUCAQAAdllZQAkhISQhEiMGBhwrJQYHBiMiJyYiBiMiAjU0NjMyFjMyNjMyFxYXBgcGFRQWAxQGBwYHBgc+ATceAR0BFAMJFS9ISBszMEZaHVWlfmAodBMZcChCNR0dLBQkTJ8hJB4eFCYCU2IBAqxGRW4SEiYBI4d/oiImJBQkJR00P0VwAoEiVCMeCgcDU3gXAggCBgQAAAAB////sQNIAwsAIwA2QDMSAQMCEwEAAwJMAAIAAwACA2kAAAAFBAAFZwAEAQEEWQAEBAFhAAEEAVEVJSMnJRAGBhwrASEWFRQOASMiLgM+AjMyFwcmIyIOARQeATMyPgM3IwGtAZQHZrx5WJ50QgJGcKJWp3h1RGZIekhIekgwUjQoEAXzAZslInm+bERyoK6gckRxcENKepZ6ShwmNiwVAAAAABEAAAAABQYCdQANACAAKgA0ADUAPwBJAFcAWABmAHQAgACBAI8AnQCsAMABTkAzrKYCAAyZkIuCfAIGCApwAQYIYgEPBp+XkomEenZuaGFaUktGQTw3MSwnIhoJABgDDwVMS7AJUFhANwAODA6FAAwADIUAAAoAhQAKCAqFAAgGCIUABg8GhQAPAw+FBQQCAwcDhQ0LCQMHAQeFAgEBAXYbS7AKUFhANwAODA6FAAwADIUAAAoAhQAKCAqFAAgGCIUABg8GhQAPAw+FBAEDBQOFDQsJBwQFAQWFAgEBAXYbS7ALUFhAMwAODA6FAAwADIUAAAoAhQAKCAqFAAgGCIUABg8GhQAPAw+FDQsJBwUEBgMBA4UCAQEBdhtANwAODA6FAAwADIUAAAoAhQAKCAqFAAgGCIUABg8GhQAPAw+FBQQCAwcDhQ0LCQMHAQeFAgEBAXZZWVlAIb+9urixr6mooqF/fnl4cnFta2RjX11PTURDHh0mFBAGGCslNwMuASIGFQMXHgE3Mj8BAzQnJiIHBhUHAxcUFxYyNjUlFwcGIi8BNzYyNxcHBiI1Jzc0MhMDFwcUIi8BNzYyHwEHBiI1Jzc0Mh8BBwYjIiY3Jzc0NjcyEwMXBxQGIyIvATc2MzIWNxMHFAYjIi8BEzYzMhY3EwcGIi8BEzQ2MhYTAxMHFAYiJjcnEzQ2HgEXEwcUBi4BNycTPgIXEwcUBiImLwETPgEyFxYXARQGIyEuATURNDc2MzIWFzYzMhYBtggIAQgKCAcHAQgEDKcGBwcFCAUHAQUGAwUOCv26CwsCBgIKCgEIMQ4OAgkNDQmeaQ4ODAEMDAEMNA0NAQ4LCw42DAwBCAMGAQwMBAQI16IMDAYDCQEKCgEJBAQ2CgoGBQoBCQkBCgUGNgoKARUCCQkICQjabggICggMAggICAwGOQgICgoMAQYGAQgOA3sICg4KAQYGAQsLAwgBAnVeQP5JBwoQLzZsoAkeIEFcVIcBJAUICAX+3IcFCAEddQFHCQUDAwUJA/69hAYEBgkHy0dGBQVGRwUnc3EFBXFzBf7/ARKJhAYGhIkGAo2ICAiIjQcSgokJBAWJggQEAf7uAVvUiQQGConUCgYs/vuIBQYLiAEFCwgT/uaHDAyHARoFCAj+XQGh/uOFBggGCIUBHQYIAgQT/u2DBgoCBgiDARMHCAIG/uKBBwoKB4EBZQgJAwQK/qZBXAEKBwH2DQUTkmwMXAAC//7/agPrA1kAGQAfABtAGB8eHRwbEwoHAEoAAAEAhQABAXYVFgIGGCsBFgcDBgcGIyInJQcGIyInLgE9ASUuATcBNgMTARcJAQPYEwSOAw8ICgYH/tqmChEHBQsM/vgUBBQDoBSse/zguwHi/vUDTA0X/KcQCQUDeLYMAgQSDPxsCCwLAhgM/K4C4/4yTAFk/kQAAgAA/34DwAM+AAgAGwBQQE0GAQQDBQMEBYAABQEDBQF+AAEBhAkBAAACCAACZwoBCAMDCFcKAQgIA18HAQMIA08JCQEACRsJGhgXFhUUExIREA8MCgUEAAgBCAsGFisBMgAQACAAEAABNSMiBh0BIxUzFTM1MzUjNTQzAeDIARj+6P5w/ugBGAE6SCw8TExWWloSAz7+6P5y/uYBGgGOARj+tk5CMCxK3t5KNBwAAAABAAAAAQAAEZwXk18PPPUADwPoAAAAAOEfV4oAAAAA4R9Xiv/+/2oFBgNZAAAACAACAAAAAAAAAAEAAANS/2oAAAUF//7//QUGAAEAAAAAAAAAAAAAAAAAAAALA+gAAAPoAAAB9AAAA6AAAAPo//8DWQAAAxEAAANZ//8FBQAAA+j//gPAAAAAAAAAALgA+AFoAeICvANAA5IFYgWsBgMAAQAAAAsAwQARAAAAAAACACAASACNAAAAnw4MAAAAAAAAABIA3gABAAAAAAAAADUAAAABAAAAAAABAAgANQABAAAAAAACAAcAPQABAAAAAAADAAgARAABAAAAAAAEAAgATAABAAAAAAAFAAsAVAABAAAAAAAGAAgAXwABAAAAAAAKACsAZwABAAAAAAALABMAkgADAAEECQAAAGoApQADAAEECQABABABDwADAAEECQACAA4BHwADAAEECQADABABLQADAAEECQAEABABPQADAAEECQAFABYBTQADAAEECQAGABABYwADAAEECQAKAFYBcwADAAEECQALACYByUNvcHlyaWdodCAoQykgMjAyMyBieSBvcmlnaW5hbCBhdXRob3JzIEAgZm9udGVsbG8uY29tZm9udGVsbG9SZWd1bGFyZm9udGVsbG9mb250ZWxsb1ZlcnNpb24gMS4wZm9udGVsbG9HZW5lcmF0ZWQgYnkgc3ZnMnR0ZiBmcm9tIEZvbnRlbGxvIHByb2plY3QuaHR0cDovL2ZvbnRlbGxvLmNvbQBDAG8AcAB5AHIAaQBnAGgAdAAgACgAQwApACAAMgAwADIAMwAgAGIAeQAgAG8AcgBpAGcAaQBuAGEAbAAgAGEAdQB0AGgAbwByAHMAIABAACAAZgBvAG4AdABlAGwAbABvAC4AYwBvAG0AZgBvAG4AdABlAGwAbABvAFIAZQBnAHUAbABhAHIAZgBvAG4AdABlAGwAbABvAGYAbwBuAHQAZQBsAGwAbwBWAGUAcgBzAGkAbwBuACAAMQAuADAAZgBvAG4AdABlAGwAbABvAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAAcwB2AGcAMgB0AHQAZgAgAGYAcgBvAG0AIABGAG8AbgB0AGUAbABsAG8AIABwAHIAbwBqAGUAYwB0AC4AaAB0AHQAcAA6AC8ALwBmAG8AbgB0AGUAbABsAG8ALgBjAG8AbQAAAAACAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsBAgEDAQQBBQEGAQcBCAEJAQoBCwEMAAdzcG90aWZ5CGxvY2F0aW9uB3R3aXR0ZXIMeW91dHViZS1wbGF5CWluc3RhZ3JhbQVhcHBsZQZnb29nbGUKc291bmRjbG91ZBFwYXBlci1wbGFuZS1lbXB0eRBmYWNlYm9vay1jaXJjbGVkAAAAAAABAAH//wAPAAAAAAAAAAAAAAAAAAAAALAALCCwAFVYRVkgIEu4AA5RS7AGU1pYsDQbsChZYGYgilVYsAIlYbkIAAgAY2MjYhshIbAAWbAAQyNEsgABAENgQi2wASywIGBmLbACLCMhIyEtsAMsIGSzAxQVAEJDsBNDIGBgQrECFENCsSUDQ7ACQ1R4ILAMI7ACQ0NhZLAEUHiyAgICQ2BCsCFlHCGwAkNDsg4VAUIcILACQyNCshMBE0NgQiOwAFBYZVmyFgECQ2BCLbAELLADK7AVQ1gjISMhsBZDQyOwAFBYZVkbIGQgsMBQsAQmWrIoAQ1DRWNFsAZFWCGwAyVZUltYISMhG4pYILBQUFghsEBZGyCwOFBYIbA4WVkgsQENQ0VjRWFksChQWCGxAQ1DRWNFILAwUFghsDBZGyCwwFBYIGYgiophILAKUFhgGyCwIFBYIbAKYBsgsDZQWCGwNmAbYFlZWRuwAiWwDENjsABSWLAAS7AKUFghsAxDG0uwHlBYIbAeS2G4EABjsAxDY7gFAGJZWWRhWbABK1lZI7AAUFhlWVkgZLAWQyNCWS2wBSwgRSCwBCVhZCCwB0NQWLAHI0KwCCNCGyEhWbABYC2wBiwjISMhsAMrIGSxB2JCILAII0KwBkVYG7EBDUNFY7EBDUOwAGBFY7AFKiEgsAhDIIogirABK7EwBSWwBCZRWGBQG2FSWVgjWSFZILBAU1iwASsbIbBAWSOwAFBYZVktsAcssAlDK7IAAgBDYEItsAgssAkjQiMgsAAjQmGwAmJmsAFjsAFgsAcqLbAJLCAgRSCwDkNjuAQAYiCwAFBYsEBgWWawAWNgRLABYC2wCiyyCQ4AQ0VCKiGyAAEAQ2BCLbALLLAAQyNEsgABAENgQi2wDCwgIEUgsAErI7AAQ7AEJWAgRYojYSBkILAgUFghsAAbsDBQWLAgG7BAWVkjsABQWGVZsAMlI2FERLABYC2wDSwgIEUgsAErI7AAQ7AEJWAgRYojYSBksCRQWLAAG7BAWSOwAFBYZVmwAyUjYUREsAFgLbAOLCCwACNCsw0MAANFUFghGyMhWSohLbAPLLECAkWwZGFELbAQLLABYCAgsA9DSrAAUFggsA8jQlmwEENKsABSWCCwECNCWS2wESwgsBBiZrABYyC4BABjiiNhsBFDYCCKYCCwESNCIy2wEixLVFixBGREWSSwDWUjeC2wEyxLUVhLU1ixBGREWRshWSSwE2UjeC2wFCyxABJDVVixEhJDsAFhQrARK1mwAEOwAiVCsQ8CJUKxEAIlQrABFiMgsAMlUFixAQBDYLAEJUKKiiCKI2GwECohI7ABYSCKI2GwECohG7EBAENgsAIlQrACJWGwECohWbAPQ0ewEENHYLACYiCwAFBYsEBgWWawAWMgsA5DY7gEAGIgsABQWLBAYFlmsAFjYLEAABMjRLABQ7AAPrIBAQFDYEItsBUsALEAAkVUWLASI0IgRbAOI0KwDSOwAGBCIGC3GBgBABEAEwBCQkKKYCCwFCNCsAFhsRQIK7CLKxsiWS2wFiyxABUrLbAXLLEBFSstsBgssQIVKy2wGSyxAxUrLbAaLLEEFSstsBsssQUVKy2wHCyxBhUrLbAdLLEHFSstsB4ssQgVKy2wHyyxCRUrLbArLCMgsBBiZrABY7AGYEtUWCMgLrABXRshIVktsCwsIyCwEGJmsAFjsBZgS1RYIyAusAFxGyEhWS2wLSwjILAQYmawAWOwJmBLVFgjIC6wAXIbISFZLbAgLACwDyuxAAJFVFiwEiNCIEWwDiNCsA0jsABgQiBgsAFhtRgYAQARAEJCimCxFAgrsIsrGyJZLbAhLLEAICstsCIssQEgKy2wIyyxAiArLbAkLLEDICstsCUssQQgKy2wJiyxBSArLbAnLLEGICstsCgssQcgKy2wKSyxCCArLbAqLLEJICstsC4sIDywAWAtsC8sIGCwGGAgQyOwAWBDsAIlYbABYLAuKiEtsDAssC8rsC8qLbAxLCAgRyAgsA5DY7gEAGIgsABQWLBAYFlmsAFjYCNhOCMgilVYIEcgILAOQ2O4BABiILAAUFiwQGBZZrABY2AjYTgbIVktsDIsALEAAkVUWLEOBkVCsAEWsDEqsQUBFUVYMFkbIlktsDMsALAPK7EAAkVUWLEOBkVCsAEWsDEqsQUBFUVYMFkbIlktsDQsIDWwAWAtsDUsALEOBkVCsAFFY7gEAGIgsABQWLBAYFlmsAFjsAErsA5DY7gEAGIgsABQWLBAYFlmsAFjsAErsAAWtAAAAAAARD4jOLE0ARUqIS2wNiwgPCBHILAOQ2O4BABiILAAUFiwQGBZZrABY2CwAENhOC2wNywuFzwtsDgsIDwgRyCwDkNjuAQAYiCwAFBYsEBgWWawAWNgsABDYbABQ2M4LbA5LLECABYlIC4gR7AAI0KwAiVJiopHI0cjYSBYYhshWbABI0KyOAEBFRQqLbA6LLAAFrAXI0KwBCWwBCVHI0cjYbEMAEKwC0MrZYouIyAgPIo4LbA7LLAAFrAXI0KwBCWwBCUgLkcjRyNhILAGI0KxDABCsAtDKyCwYFBYILBAUVizBCAFIBuzBCYFGllCQiMgsApDIIojRyNHI2EjRmCwBkOwAmIgsABQWLBAYFlmsAFjYCCwASsgiophILAEQ2BkI7AFQ2FkUFiwBENhG7AFQ2BZsAMlsAJiILAAUFiwQGBZZrABY2EjICCwBCYjRmE4GyOwCkNGsAIlsApDRyNHI2FgILAGQ7ACYiCwAFBYsEBgWWawAWNgIyCwASsjsAZDYLABK7AFJWGwBSWwAmIgsABQWLBAYFlmsAFjsAQmYSCwBCVgZCOwAyVgZFBYIRsjIVkjICCwBCYjRmE4WS2wPCywABawFyNCICAgsAUmIC5HI0cjYSM8OC2wPSywABawFyNCILAKI0IgICBGI0ewASsjYTgtsD4ssAAWsBcjQrADJbACJUcjRyNhsABUWC4gPCMhG7ACJbACJUcjRyNhILAFJbAEJUcjRyNhsAYlsAUlSbACJWG5CAAIAGNjIyBYYhshWWO4BABiILAAUFiwQGBZZrABY2AjLiMgIDyKOCMhWS2wPyywABawFyNCILAKQyAuRyNHI2EgYLAgYGawAmIgsABQWLBAYFlmsAFjIyAgPIo4LbBALCMgLkawAiVGsBdDWFAbUllYIDxZLrEwARQrLbBBLCMgLkawAiVGsBdDWFIbUFlYIDxZLrEwARQrLbBCLCMgLkawAiVGsBdDWFAbUllYIDxZIyAuRrACJUawF0NYUhtQWVggPFkusTABFCstsEMssDorIyAuRrACJUawF0NYUBtSWVggPFkusTABFCstsEQssDsriiAgPLAGI0KKOCMgLkawAiVGsBdDWFAbUllYIDxZLrEwARQrsAZDLrAwKy2wRSywABawBCWwBCYgICBGI0dhsAwjQi5HI0cjYbALQysjIDwgLiM4sTABFCstsEYssQoEJUKwABawBCWwBCUgLkcjRyNhILAGI0KxDABCsAtDKyCwYFBYILBAUVizBCAFIBuzBCYFGllCQiMgR7AGQ7ACYiCwAFBYsEBgWWawAWNgILABKyCKimEgsARDYGQjsAVDYWRQWLAEQ2EbsAVDYFmwAyWwAmIgsABQWLBAYFlmsAFjYbACJUZhOCMgPCM4GyEgIEYjR7ABKyNhOCFZsTABFCstsEcssQA6Ky6xMAEUKy2wSCyxADsrISMgIDywBiNCIzixMAEUK7AGQy6wMCstsEkssAAVIEewACNCsgABARUUEy6wNiotsEossAAVIEewACNCsgABARUUEy6wNiotsEsssQABFBOwNyotsEwssDkqLbBNLLAAFkUjIC4gRoojYTixMAEUKy2wTiywCiNCsE0rLbBPLLIAAEYrLbBQLLIAAUYrLbBRLLIBAEYrLbBSLLIBAUYrLbBTLLIAAEcrLbBULLIAAUcrLbBVLLIBAEcrLbBWLLIBAUcrLbBXLLMAAABDKy2wWCyzAAEAQystsFksswEAAEMrLbBaLLMBAQBDKy2wWyyzAAABQystsFwsswABAUMrLbBdLLMBAAFDKy2wXiyzAQEBQystsF8ssgAARSstsGAssgABRSstsGEssgEARSstsGIssgEBRSstsGMssgAASCstsGQssgABSCstsGUssgEASCstsGYssgEBSCstsGcsswAAAEQrLbBoLLMAAQBEKy2waSyzAQAARCstsGosswEBAEQrLbBrLLMAAAFEKy2wbCyzAAEBRCstsG0sswEAAUQrLbBuLLMBAQFEKy2wbyyxADwrLrEwARQrLbBwLLEAPCuwQCstsHEssQA8K7BBKy2wciywABaxADwrsEIrLbBzLLEBPCuwQCstsHQssQE8K7BBKy2wdSywABaxATwrsEIrLbB2LLEAPSsusTABFCstsHcssQA9K7BAKy2weCyxAD0rsEErLbB5LLEAPSuwQistsHossQE9K7BAKy2weyyxAT0rsEErLbB8LLEBPSuwQistsH0ssQA+Ky6xMAEUKy2wfiyxAD4rsEArLbB/LLEAPiuwQSstsIAssQA+K7BCKy2wgSyxAT4rsEArLbCCLLEBPiuwQSstsIMssQE+K7BCKy2whCyxAD8rLrEwARQrLbCFLLEAPyuwQCstsIYssQA/K7BBKy2whyyxAD8rsEIrLbCILLEBPyuwQCstsIkssQE/K7BBKy2wiiyxAT8rsEIrLbCLLLILAANFUFiwBhuyBAIDRVgjIRshWVlCK7AIZbADJFB4sQUBFUVYMFktAEu4AMhSWLEBAY5ZsAG5CAAIAGNwsQAHQrEAACqxAAdCsQAKKrEAB0KxAAoqsQAHQrkAAAALKrEAB0K5AAAACyq5AAMAAESxJAGIUViwQIhYuQADAGREsSgBiFFYuAgAiFi5AAMAAERZG7EnAYhRWLoIgAABBECIY1RYuQADAABEWVlZWVmxAA4quAH/hbAEjbECAESzBWQGAERE') format('truetype');
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?16551101#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-spotify:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-location:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-twitter:before {
+    content: '\f099';
+}
+
+/* '' */
+.icon-youtube-play:before {
+    content: '\f16a';
+}
+
+/* '' */
+.icon-instagram:before {
+    content: '\f16d';
+}
+
+/* '' */
+.icon-apple:before {
+    content: '\f179';
+}
+
+/* '' */
+.icon-google:before {
+    content: '\f1a0';
+}
+
+/* '' */
+.icon-soundcloud:before {
+    content: '\f1be';
+}
+
+/* '' */
+.icon-paper-plane-empty:before {
+    content: '\f1d9';
+}
+
+/* '' */
+.icon-facebook-circled:before {
+    content: '\f30d';
+}
+
+/* '' */
