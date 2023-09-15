@@ -231,7 +231,7 @@ body {
 
 .biography {
 
-    background: url(../../img/bg-img-04-free-img.jpg) no-repeat;
+    background: url(../img/bg-img-04-free-img.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: top right;
@@ -507,7 +507,7 @@ body {
 
 .contact-background {
 
-    background: url(../../img/bg-02-free-img.jpg) no-repeat;
+    background: url(../img/bg-02-free-img.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -820,7 +820,7 @@ body {
 
 
 .biography-header {
-    background: url(../../img/bg-img-01-free-img.jpg) no-repeat;
+    background: url(../img/bg-img-01-free-img.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 200px;
@@ -855,7 +855,7 @@ body {
 
 .biography-excepteur {
 
-    background: url(../../img/bg-03-free-img.jpg) no-repeat;
+    background: url(../img/bg-03-free-img.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
